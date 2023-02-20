@@ -1,9 +1,10 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+/*
 import Products from "./Products";
 import Contact from "./Contact";
 import Cart from "./Cart";
-import SingleProduct from "./SingleProduct";
+import SingleProduct from "./SingleProduct";*/
 import ErrorPage from "./ErrorPage";
 import {Globalstyle} from "./Globalstyle";
 import {ThemeProvider} from ".styled-components/";
