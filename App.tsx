@@ -26,9 +26,9 @@ const App = () => {
 <Route path="/*" element={<ErrorPage />} />
     </Routes>
    </Router>
-  )
+  
 </ThemeProvider>
-};
+  );
 };
 
 export default App;
