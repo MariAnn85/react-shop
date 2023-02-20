@@ -16,7 +16,8 @@ const App = () => {
     },
   };
   return (
-    <ThemeProvider theme={theme}>
+    /*
+    <ThemeProvider theme={theme}>*/
    <Router>
      <Routes>
     <Route path="/" element={<Home />} />
@@ -28,8 +29,8 @@ const App = () => {
 <Route path="/*" element={<ErrorPage />} />
     </Routes>
    </Router>
-  
-</ThemeProvider>
+  /*
+</ThemeProvider>*/
   );
 };
 
