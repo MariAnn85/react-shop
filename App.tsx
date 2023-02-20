@@ -7,7 +7,8 @@ import Cart from "./Cart";
 import SingleProduct from "./SingleProduct";*/
 import ErrorPage from "./ErrorPage";
 import {Globalstyle} from "./Globalstyle";
-import {ThemeProvider} from ".styled-components/";
+/*
+import {ThemeProvider} from ".styled-components/";*/
 const App = () => {
   const theme={
     colors: {
