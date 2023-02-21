@@ -18,7 +18,7 @@ const App = () => {
   return (
     /*
     <ThemeProvider theme={theme}>*/
-   <Router>
+   <BrowserRouter>
      <Routes>
     <Route path="/" element={<Home />} />
 <Route path="/about" element={<About />} />
@@ -28,7 +28,7 @@ const App = () => {
 <Route path="/cart" element={<Cart />} />
 <Route path="/*" element={<ErrorPage />} />
     </Routes>
-   </Router>
+   </BrowserRouter>
   /*
 </ThemeProvider>*/
   );
